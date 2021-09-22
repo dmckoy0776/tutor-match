@@ -103,4 +103,18 @@ public class Tutor implements Serializable {
     public void setZip(Long zip) {
         this.zip = zip;
     }
+
+    @Override
+    public String toString() {
+        return "Tutor{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", age=" + age +
+                ", zip=" + zip +
+                ", specialty=" + specialty +
+                ", availability='" + availability + '\'' +
+                ", preference=" + preference +
+                '}';
+    }
 }
